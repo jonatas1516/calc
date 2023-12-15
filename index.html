@@ -17,12 +17,12 @@
     <section class="s-values">
       <div class="d-value">
         <label for="value1">Valor 1:</label>
-        <input id="value1" type="text" placeholder="Digite um número">
+        <input type="number" placeholder="Digite um número" class="input1" id="value1">
       </div>
 
       <div class="d-value">
         <label for="value2">Valor 2:</label>
-        <input id="value2" type="text" placeholder="Digite um número">
+        <input type="number" placeholder="Digite um número" class="input2" id="value2">
       </div>
 
     </section>
@@ -30,7 +30,7 @@
     <section class="s-btn">
       <label for="btn">Escolha a Operação</label>
 
-      <input onclick="sum()" class="btn" type="button" value="Soma">
+      <input onclick="sum(value1.value, value2.value)" class="btn" id="btn1" type="button" value="Soma">
       <input onclick="subtraction()" class="btn" type="button" value="Subtração">
 
       <input onclick="multiplication()" class="btn" type="button" value="Multiplicação">
@@ -41,8 +41,9 @@
     </section>
 
     <section class="s-result">
-      <p class="ops">Operação: <span>---</span></p>
       <p class="result">Resultado: <span>---</span></p>
+      <p class="ops">Operação: <span>---</span></p>
+      <p class="sinal">Símbolo: <span>---</span></p>
     </section>
   </main>
 
