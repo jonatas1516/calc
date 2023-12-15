@@ -7,7 +7,7 @@
 
 .s-title,
 .s-values {
-  margin: 2rem 0;
+  margin: 2rem;
 }
 
 .title {
@@ -16,6 +16,7 @@
 
 .d-value {
   display: inline-block;
+  margin: 1rem;
 }
 
 .s-values label {
@@ -50,7 +51,7 @@
   height: 3rem;
   width: 9rem;
   font-size: large;
-  margin: 0 1rem;
+  margin: 1rem;
   border-radius: 5rem;
   cursor: pointer;
   background-color: black;
@@ -69,4 +70,16 @@
 
 .s-result {
   font-size: x-large;
+}
+
+.s-result p {
+  margin: 0.5rem;
+}
+
+.result b {
+  color: blue;
+}
+
+.sinal b {
+  color: red;
 }
