@@ -29,14 +29,15 @@
 
     <section class="s-btn">
       <label for="btn">Escolha a Operação</label>
-      <input class="btn" type="button" value="Soma">
-      <input class="btn" type="button" value="Divisão">
 
-      <input class="btn" type="button" value="Subtração">
-      <input class="btn" type="button" value="Multiplicação">
+      <input onclick="sum()" class="btn" type="button" value="Soma">
+      <input onclick="subtraction()" class="btn" type="button" value="Subtração">
 
-      <input class="btn" type="button" value="Resto">
-      <input class="btn" type="button" value="Exponencial">
+      <input onclick="multiplication()" class="btn" type="button" value="Multiplicação">
+      <input onclick="division()" class="btn" type="button" value="Divisão">
+
+      <input onclick="rest()" class="btn" type="button" value="Resto">
+      <input onclick="exponential()" class="btn" type="button" value="Exponencial">
     </section>
 
     <section class="s-result">
@@ -46,5 +47,7 @@
   </main>
 
 </body>
+
+<script src="./assets/js/script.js"></script>
 
 </html>
