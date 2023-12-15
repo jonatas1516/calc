@@ -2,11 +2,11 @@ const value1 = document.querySelector(".input1");
 
 const value2 = document.querySelector(".input2");
 
-const res = document.querySelector(".result span");
+const res = document.querySelector(".result b");
 
-const ops = document.querySelector(".ops span");
+const ops = document.querySelector(".ops b");
 
-const snl = document.querySelector(".sinal span");
+const snl = document.querySelector(".sinal b");
 
 let result = 0;
 
