@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.s-title,
+.s-values {
+  margin: 2rem 0;
+}
+
+.title {
+  font-size: xx-large;
+}
+
+.d-value {
+  display: inline-block;
+}
+
+.s-values label {
+  display: block;
+  text-align: left;
+  margin: 0 3rem 0.5rem 0;
+  font-size: larger;
+}
+
+#value1,
+#value2 {
+  margin: 0 2rem 0 0;
+  width: 15rem;
+  height: 3rem;
+  font-size: x-large;
+  border-radius: 10rem;
+}
+
+.s-btn {
+  margin: 5rem 0;
+}
+
+.s-btn label {
+  display: block;
+  text-align: center;
+  margin: 0 3rem 2rem 0;
+  font-size: larger;
+}
+
+.btn {
+  text-align: center;
+  height: 3rem;
+  width: 9rem;
+  font-size: large;
+  margin: 0 1rem;
+  border-radius: 5rem;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+.btn:hover {
+  transition: 0.3s;
+  opacity: 0.8;
+}
+
+.btn:active {
+  transition: 0.3s;
+  opacity: 0.3;
+}
+
+.s-result {
+  font-size: x-large;
+}
